@@ -6,6 +6,7 @@ from os.path import isfile, join
 # Create an SR object
 sr = dnn_superres.DnnSuperResImpl_create()
 
+# Define folders and models
 image_path = "./images/"
 upscale_path = "./upscaled/"
 model_path = "EDSR_x3.pb"
