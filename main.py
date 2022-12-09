@@ -13,7 +13,7 @@ upscale_path = "./upscaled/"
 model_path = "EDSR_x3.pb"
 model_name = "edsr"
 model_times = 3
-gpu = True
+gpu = False
 
 
 files = [f for f in listdir(image_path) if isfile(join(image_path, f))]
